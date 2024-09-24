@@ -4,7 +4,8 @@
 
 ## Basic Overview
 
-This analysis considers player data from the computer game FIFA 22, to build, optimize and test a predictive model to identify the key features in a player's financial transfer/market value. This analysis will be useful to clubs trying to buy and sell players at suitable market values.
+Objective: This analysis considers player data from the computer game FIFA 22, to build, optimize and test a predictive model to identify the key features in a player's financial transfer/market value. 
+Audience: This analysis will be useful to clubs trying to buy and sell players at suitable market values.
 
 ## Table of Contents
 
