@@ -66,11 +66,13 @@ Dropped National Team ID due to missing data.
 
 Encoded data, grouped, and checked for null values.
 
-Data was cleaned by dropping rows where the target variable was not stored. Any non-relevant columns i.e. images, jersey numbers etc were dropped. Goalkeeping metrics were also dropped as these represent a group quite distant from the majority of footballers and the data could distort results. National Team ID was dropped from the data as 96% of it's data was missing. Data was encoded, grouped and checked for null values to make regression analysis easier.
-
 ## Data Exploration
 
-Summary statistics were found for each variable and distributions were plotted. Boxplots were created to identify outliers. Correlation heatmaps were created to identify metrics that are most closely linked to the target variable.
+Conducted summary statistics and plotted distributions.
+
+Created boxplots for outlier detection.
+
+Used correlation heatmaps to identify relationships with target variable.
 
 ## Data Preparation
 
