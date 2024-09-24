@@ -35,7 +35,7 @@ This analysis considers player data from the computer game FIFA 22, to build, op
       - `pip install pandas`
       - `pip install scikit-learn`
       - `pip install numpy`
-      - 'pip install matplotlib`
+      - `pip install matplotlib`
       - 'pip install seaborn'
       - `pip install statsmodels`
       - `pip install xgboost`
