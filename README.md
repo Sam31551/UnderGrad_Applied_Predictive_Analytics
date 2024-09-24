@@ -29,7 +29,24 @@ This analysis considers player data from the computer game FIFA 22, to build, op
      ```bash
      pip install notebook
      ```
-     
+
+3. **Required Packages**: This analysis requires several Python packages. You can install these packages using pip. The list of packages and their installation commands are provided below. 
+
+      - `pip install pandas`
+      - `pip install scikit-learn`
+      - `pip install numpy`
+      - 'pip install matplotlib`
+      - 'pip install seaborn'
+      - `pip install statsmodels`
+      - `pip install xgboost`
+      - 'pip install interpret'
+      - 'pip install pydot'
+      - 'pip install ipython'
+      - `pip install scipy`
+      - `pip install shap`
+      
+Once these packages have been installed all import statements should run.
+
 ## Data Sources
 
 ## Data Cleaning
