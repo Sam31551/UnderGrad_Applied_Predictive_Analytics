@@ -56,6 +56,12 @@ https://www.kaggle.com/datasets/stefanoleone992/fifa-22-complete-player-dataset
 
 ## Data Cleaning
 
+Removed rows without target variable.
+Dropped irrelevant columns (e.g., images, jersey numbers).
+Excluded goalkeeping metrics.
+Dropped National Team ID due to missing data.
+Encoded data, grouped, and checked for null values.
+
 Data was cleaned by dropping rows where the target variable was not stored. Any non-relevant columns i.e. images, jersey numbers etc were dropped. Goalkeeping metrics were also dropped as these represent a group quite distant from the majority of footballers and the data could distort results. National Team ID was dropped from the data as 96% of it's data was missing. Data was encoded, grouped and checked for null values to make regression analysis easier.
 
 ## Data Exploration
