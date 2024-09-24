@@ -21,6 +21,15 @@ This analysis considers player data from the computer game FIFA 22, to build, op
 
 ## Installation and set up
 
+1. **Python Installation**: This project requires Python. Ensure you have Python installed on your system. You can download Python from the [official Python website](https://www.python.org/downloads/).
+
+2. **Running Jupyter Notebooks**: The Python files for this project are in `.ipynb` format, which can be executed using Jupyter Notebook or Google Colab. To use Jupyter Notebook locally, you can install it via Anaconda or directly using pip:
+   - **Using Anaconda**: Install Anaconda from [Anaconda's website](https://www.anaconda.com/products/distribution) and launch Jupyter Notebook from the Anaconda Navigator.
+   - **Using pip**: Install Jupyter Notebook with the command:
+     ```bash
+     pip install notebook
+     ```
+     
 ## Data Sources
 
 ## Data Cleaning
