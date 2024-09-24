@@ -76,11 +76,13 @@ Used correlation heatmaps to identify relationships with target variable.
 
 ## Data Preparation
 
-Data was shuffled and then split into X (predictors) and Y (target variable) datasets.
+Data was shuffled and then split into predictors (X) and target variable (Y) datasets.
 
 ## Feature Selection
 
-Forward, Backward and Best Subset feature selection techniques are implemented. The top features found with each technique are stored. 
+Forward, Backward and Best Subset feature selection techniques are implemented. 
+
+The top features found with each technique are stored. 
 
 ## Models on best variables
 
@@ -92,8 +94,12 @@ The previous models are optimized using GridSearchCV on key hyperparameters. The
 
 ## Feature Importance
 
-Feature Importance was run using the best model from the previous step. This was done using SHAP to rank the metrics in their effect on the target variable. These metrics were then examined to see how their values individually effected the tagret variable. 
+Feature Importance was run using the best model from the previous step. This was done using SHAP to rank the metrics in their effect on the target variable.
+
+These metrics were then examined to see how their values individually effected the tagret variable. 
 
 ## Models without best features
 
-The previous step highlighted a number of dominant features which caused all other features to be insignificant when predicting player market value. These features were removed and the modelling/feature importance steps were repeated to get a more represenatative sample of the key metrics without the few dominant ones.
+The previous step highlighted a number of dominant features which caused all other features to be insignificant when predicting player market value. 
+
+These features were removed and the modelling/feature importance steps were repeated to get a more represenatative sample of the key metrics without the few dominant ones.
