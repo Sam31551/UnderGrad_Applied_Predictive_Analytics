@@ -54,25 +54,19 @@ Once these packages have been installed all import statements should run.
 Data was collected from Kaggle. It contains player data from the video game FIFA 22. 
 https://www.kaggle.com/datasets/stefanoleone992/fifa-22-complete-player-dataset 
 
-## Data Cleaning
+### Data Cleaning
 
-Removed rows without target variable.
-
-Dropped irrelevant columns (e.g., images, jersey numbers).
-
-Excluded goalkeeping metrics.
-
-Dropped National Team ID due to missing data.
-
-Encoded data, grouped, and checked for null values.
+   - Removed rows without target variable.
+   - Dropped irrelevant columns (e.g., images, jersey numbers).
+   - Excluded goalkeeping metrics.
+   - Dropped National Team ID due to missing data.
+   - Encoded data, grouped, and checked for null values.
 
 ## Data Exploration
 
-Conducted summary statistics and plotted distributions.
-
-Created boxplots for outlier detection.
-
-Used correlation heatmaps to identify relationships with target variable.
+   - Conducted summary statistics and plotted distributions.
+   - Created boxplots for outlier detection.
+   - Used correlation heatmaps to identify relationships with target variable.
 
 ## Data Preparation
 
