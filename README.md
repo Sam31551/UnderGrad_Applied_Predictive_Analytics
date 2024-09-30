@@ -54,7 +54,7 @@ Once these packages have been installed all import statements should run.
 Data was collected from Kaggle. It contains player data from the video game FIFA 22. 
 https://www.kaggle.com/datasets/stefanoleone992/fifa-22-complete-player-dataset 
 
-### Data Cleaning
+## Data Cleaning
 
    - Removed rows without target variable.
    - Dropped irrelevant columns (e.g., images, jersey numbers).
